@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master1.Master.cs" Inherits="Group_6_IT114L_MP.FirstMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav id="nav" style="display: flex;
+  justify-content: space-between;">
+            <h2>DRIVE-IN CINEMA</h2>
+             <ul>  
+                <li><a href="Signin.aspx">Sign in</a></li>
+            </ul>
+    </nav>  
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
